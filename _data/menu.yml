@@ -4,3 +4,36 @@
   opinion: positive
 - food: Strawberries
   opinion: negative
+- food: Potatoes
+  opinion: positive
+- food: Cream Cheese
+  opinion: negative
+- food: Sauces, Spreads, & Schmears
+  opinion: negative
+  exception: Tomato Sauce
+- food: Cheese
+  opinion: negative
+  exception: Pizza, some Mac and Cheese
+- food: Vinegar
+  opinion: terrible
+- food: Mushrooms
+  opinion: negative
+- food: Beans
+  opinion: negative
+  exception: Chickpeas, Edamame
+- food: Cream Cheese
+  opinion: negative
+- food: Black Beans
+  opinion: terrible
+- food: Eggplant
+  opinion: negative
+- food: Spinach
+  opinion: positive
+  exception: Cooked Spinach
+
+
+
+
+
+
+
