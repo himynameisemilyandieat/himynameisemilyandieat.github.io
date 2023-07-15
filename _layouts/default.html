@@ -14,9 +14,6 @@
 
     <link rel="apple-touch-icon" href="{{ site.icon }}">
 
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
 
   </head>
   <body>
@@ -33,19 +30,7 @@
 
     {{ content }}
 
-    {% unless site.hide_search %}
-      {% include search.html %}
-    {% endunless %}
-
     {% include menu.html %}
-
-    {% unless site.hide_credits %}
-      <aside class="site-credits">
-        <p>
-          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
-        </p>
-      </aside>
-    {% endunless %}
 
   </body>
 </html>

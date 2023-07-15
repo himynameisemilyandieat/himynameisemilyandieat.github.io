@@ -6,6 +6,11 @@ body {
   line-height: 1.5;
 }
 
+* {
+  font-family: $font-family !important;
+
+}
+
 h1 {
   font-size: 3em;
   margin: .5em auto;
@@ -115,7 +120,6 @@ figcaption {
 .home {
   max-width: 24em;
   margin: auto;
-  padding: 4em 1em;
 }
 
 .content-title {
