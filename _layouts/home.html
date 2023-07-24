@@ -62,4 +62,28 @@ layout: default
       {% endfor %}
     </ul>
   </header>
+
+
+  <header class="site-masthead">
+    <h2>
+    I will <span style="font-weight: bold;">never</span> eat...
+  </h2>
+  <span style="padding-top: 20px;"></span>
+  <span style="font-size: 3em;" class="divided"></span>
+  <ul class="post-list site-masthead">
+    {% for item in shuffled %}
+      {% if item.opinion == "terrible" %}
+      <li>
+      <span>{{ item.food }}</span>
+      <!-- Smaller, asterisk note with 'item.exception' -->
+      {% if item.exception %}
+        <br>
+        <span style="font-size: 0.75em;">(unless {{ item.exception }})</span>
+      {% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</header>
+
 </main>

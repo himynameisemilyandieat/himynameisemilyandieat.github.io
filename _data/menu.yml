@@ -1,5 +1,3 @@
-- food: Chicken Nuggets (Vegetarian)
-  opinion: positive
 - food: Watermelon
   opinion: positive
 - food: Strawberries
@@ -16,6 +14,8 @@
   exception: Pizza, some Mac and Cheese
 - food: Vinegar
   opinion: terrible
+- food: Chicken Nuggets (Vegetarian)
+  opinion: positive
 - food: Mushrooms
   opinion: negative
 - food: Beans
