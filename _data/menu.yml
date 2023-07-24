@@ -14,8 +14,6 @@
   exception: Pizza, some Mac and Cheese
 - food: Vinegar
   opinion: terrible
-- food: Chicken Nuggets (Vegetarian)
-  opinion: positive
 - food: Mushrooms
   opinion: negative
 - food: Beans
@@ -33,6 +31,8 @@
 - food: juice
   opinion: positive
 - food: oranges
+  opinion: positive
+- food: Vegetarian "Chicken Nuggets"
   opinion: positive
 - food: banana
   opinion: positive
