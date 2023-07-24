@@ -26,10 +26,16 @@ layout: default
 
   <h1 class="divided"></h1>
     <ul class="post-list site-masthead">
-      {% for item in site.data.menu %}
+      {% assign shuffled = site.data.menu | shuffle %}
+      {% for item in shuffled %}
         {% if item.opinion == "positive" %}
         <li>
-        {{ item.food }}
+        <span>{{ item.food }}</span>
+        <!-- Smaller, asterisk note with 'item.exception' -->
+        {% if item.exception %}
+          <br>
+          <span style="font-size: 0.75em;">(except {{ item.exception }})</span>
+        {% endif %}
         </li>
         {% endif %}
       {% endfor %}
@@ -42,10 +48,15 @@ layout: default
     <span style="padding-top: 20px;"></span>
     <span style="font-size: 3em;" class="divided"></span>
     <ul class="post-list site-masthead">
-      {% for item in site.data.menu %}
+      {% for item in shuffled %}
         {% if item.opinion == "negative" %}
         <li>
-        {{ item.food }}
+        <span>{{ item.food }}</span>
+        <!-- Smaller, asterisk note with 'item.exception' -->
+        {% if item.exception %}
+          <br>
+          <span style="font-size: 0.75em;">(unless {{ item.exception }})</span>
+        {% endif %}
         </li>
         {% endif %}
       {% endfor %}
