@@ -30,10 +30,79 @@
 - food: Spinach
   opinion: positive
   exception: Cooked Spinach
-
-
-
-
-
-
-
+- food: juice
+  opinion: positive
+- food: oranges
+  opinion: positive
+- food: banana
+  opinion: positive
+- food: bread
+  opinion: positive
+  exception: buttered/oiled
+- food: corn
+  opinion: positive
+- food: peaches
+  opinion: positive 
+- food: cauliflower
+  opinion: positive
+- food: veggie burgers 
+  opinion: positive 
+  exception: black bean burgers
+- food: pickles
+  opinion: negative 
+- food: kimchi 
+  opinion: negative 
+- food: kombucha 
+  opinion: negative 
+- food: sorbet/sherbet/Italian ice
+  opinion: positive 
+- food: apples
+  opinion: positive 
+- food: noodles
+  opinion: positive 
+  exception: heavily sauced 
+- food: melon 
+  opinion: negative 
+  exception: watermelon 
+- food: grapes
+  opinion: positive 
+- food: pancakes
+  opinion: positive 
+- food: French toast
+  opinion: positive 
+- food: eggs
+  opinion: positive 
+  exception: dishes with runny eggs 
+- food: pasta
+  opinion: positive 
+  exception: only with red sauce
+- food: green beans
+  opinion: positive
+- food: peppers
+  opinion: positive 
+  exception: cooked peppers
+- food: Brussels sprouts
+  opinion: positive
+- food: carrots
+  opinion: positive
+- food: broccoli
+  opinion: positive
+- food: celery
+  opinion: negative
+- food: beets
+  opinion: negative
+- food: chickpeas
+  opinion: positive
+  exception: when sauced
+- food: salad dressing
+  opinion: negative 
+  exception: lemon juice
+- food: French fries
+  opinion: positive
+  exception: truffle fries
+- food: chocolate
+  opinion: positive
+  exception: when mixed with fruit
+- food: ice cream
+  opinion: positive
+  exception: mint ice cream
