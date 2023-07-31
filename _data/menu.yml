@@ -106,3 +106,7 @@
 - food: ice cream
   opinion: positive
   exception: mint ice cream
+- food: Avocado
+  opinion: positive
+- food: Peanut Butter
+  opinion: positive
